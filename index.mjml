@@ -1,0 +1,150 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Helvetica Neue" />
+      <mj-all font-family="Helvetica Neue" />
+      <mj-section padding="0px" background-color="white" />
+      <mj-wrapper padding="0px" background-color="white" />
+      <mj-column padding="0px" />
+      <mj-text padding="0px" />
+      <mj-image padding="0px" />
+      <mj-class name="center-img" margin="auto" padding: 10px; />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F6F9FC">
+    <mj-section padding-top="50px">
+      <mj-column>
+        <mj-image src="/img/banner.png" alt="" />
+      </mj-column>
+
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-size="24px" padding="12px">
+          Receipt from Design Full-Time
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="#8898aa">
+          Receipt #1516-8846
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding="50px">
+      <mj-group>
+        <mj-column>
+          <mj-text color="#8898aa" font-size="12px" line-height="16px" font-weight="bold" text-transform="uppercase">
+            Amount Paid
+          </mj-text>
+          <mj-text font-size="15px" line-height="24px" color="#525f7f">
+            $5.00
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text color="#8898aa" font-size="12px" line-height="16px" font-weight="bold" text-transform="uppercase">
+            Date Paid
+          </mj-text>
+          <mj-text font-size="12px" line-height="24px" color="#525f7f">
+            Jan 13, 2023, 2:08:12 PM
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text color="#8898aa" font-size="12px" line-height="16px" font-weight="bold" text-transform="uppercase">
+            Payment Method
+          </mj-text>
+          <mj-text>
+            <div>
+              <img style="vertical-align:-7px" width="30px" src="/img/visa.png" />
+              <span style="vertical-align:-5px">-123</span>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section>
+      <mj-column padding="0 0 0 30px">
+        <mj-text color="#8898aa" font-size="12px" line-height="16px" font-weight="bold" text-transform="uppercase">
+          SUMMARY
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column padding="0 0 0 30px">
+        <mj-text line-height="24px" font-size="15px">
+          Standout Freelancer
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding="20px 20px 15px 25px">
+      <mj-section background-color="#F6F9FC" padding="30px 10px 10px 20px" border="border: 1px solid #E6EBF0;" border-radius="8px">
+
+        <mj-column>
+          <mj-table>
+            <tr>
+              <td>
+                <p style="font-size: 15px; line-height:24px; color:#525f7f;">
+                  Standout Freelancer x 1
+                </p>
+              </td>
+              <td>
+                <mj-text color=" #8898aa" font-size="12px" line-height="16px" font-weight="bold" text-transform="uppercase">
+                  $5.00
+                </mj-text>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <hr style=" border: 1px solid #E6EBF0;" />
+              </td>
+              <td>
+                <hr style=" border: 1px solid #E6EBF0;" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p style="font-size: 15px; line-height:24px; color:#525f7f;">
+                  <strong>Amount</strong>
+                </p>
+              </td>
+              <td>
+                <p style="font-size: 15px; line-height:24px; color:#525f7f;">
+                  <strong>$5.00</strong>
+                </p>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+
+      </mj-section>
+
+    </mj-wrapper>
+
+    <mj-section>
+      <mj-column width="90%">
+        <mj-divider border-width="1px" border-color="#E6EBF0" />
+        <mj-text align="center" font-size="15px" line-height="24px" color="#8898aa">
+          If you have any questions, visit our support site at <a href="#">http://designfulltime.com</a>, contact us at <a href="#">hey@dannpetty</a>.com, or call at +1 <a href="#">615-439-0697</a>.
+        </mj-text>
+        <mj-divider border-width="1px" border-color="#E6EBF0" />
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section>
+      <mj-column width="75%" padding-bottom="80px">
+        <mj-text color="#8898aa" font-size="12px" line-height="16px">
+          Something wrong with the email? <a href="#">View it in your browser.</a>
+        </mj-text>
+        <mj-spacer height="20px" />
+        <mj-text color="#8898aa" font-size="12px" line-height="16px">
+          You're receiving this email because you made a purchase at Design Full-Time, which partners with <a href="#">Stripe</a> to provide invoicing and payment processing.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+  </mj-body>
+</mjml>

@@ -1,0 +1,20 @@
+{
+  "name": "transaction-emial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mjml --watch index.mjml --output dist/index.html",
+    "server": "live-server --host=localhost --watch=dist/index.html --open=dist/index.html --ignorePattern=\".*.mjml\"",
+    "dev": "concurrently \"npm start\" \"npm server\"",
+    "build": "mjml index.mjml --output dist/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "live-server": "^1.2.1",
+    "mjml": "^4.10.2"
+  }
+}
